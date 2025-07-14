@@ -108,7 +108,7 @@
     </div>
 
     <!-- Firebase SDK -->
-    <!--<script type="module">
+    <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
         import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
         import { getFirestore, collection, addDoc, onSnapshot, query, orderBy, deleteDoc, doc } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
@@ -122,7 +122,7 @@
         let db;
         let auth;
         let userId = null;
-        let isAuthReady = false;//-->
+        let isAuthReady = false;//
 
         const expenseDateInput = document.getElementById('expenseDate');
         const expenseCategorySelect = document.getElementById('expenseCategory');
